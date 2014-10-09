@@ -10,3 +10,52 @@ h1, h2, h3, h4, .lead {
     font-family: 'Satisfy', Helvetica, sans-serif;
 }
 
+.jumbotron {
+	background-color: #AAAAAA;
+}
+
+.cool-row {
+	background-color: #EEEEEE;
+}
+
+nav {
+	margin-top: 1em;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+nav ul {
+	padding-left: 0; 
+}
+
+.lead {
+	display: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FFF889;
+}
+
+@media (min-width: 992px) {
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px; /* relative to the top of the header*/
+		right: 20px; /*relative to the header*/
+	}
+
+	.lead {
+		display: inline;
+	}
+}
